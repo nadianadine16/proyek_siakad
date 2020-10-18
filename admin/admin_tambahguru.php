@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Dashboard Admin</title>
+  <title>Tambah Guru</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -20,9 +20,6 @@
 
   <!-- Data Tables -->
   <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/csshadmin-guru.css">
 
 </head>
 
@@ -316,59 +313,35 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Lihat Guru</h1>
+            <h5 class="h5 mb-0 text-gray-800">Dashboard > Tambah Guru</h5>
             <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
           </div>
 
-          <!-- Data Tables -->
+          <!-- Form Tambah -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+              <h6 class="m-0 font-weight-bold text-primary">Tambah Data Guru</h6>
             </div>
             <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" align="center">
-                  <thead>
-                    <tr>
-                      <th rowspan="2">No</th>
-                      <th rowspan="2">Nama Guru</th>
-                      <th rowspan="2">Nomor Hp</th>
-                      <th rowspan="2">Password</th>
-                      <th colspan="3">Action</th>
-                    </tr>
-                    <tr>
-                      <th>Detail</th>
-                      <th>Edit</th>
-                      <th>Hapus</th>
-                    </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                      <th rowspan="2">No</th>
-                      <th rowspan="2">Nama Guru</th>
-                      <th rowspan="2">Nomor Hp</th>
-                      <th rowspan="2">Password</th>
-                      <th>Detail</th>
-                      <th>Edit</th>
-                      <th>Hapus</th>
-                    </tr>
-                    <tr>
-                      <th colspan="3">Action</th>
-                    </tr>
-                  </tfoot>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Kusmanto</td>
-                      <td>089234576</td>
-                      <td>kusmanto123</td>
-                      <td><i class="material-icons">remove_red_eye</i></td>
-                      <td><i class="fa fa-pencil" aria-hidden="true"></i></td>
-                      <td><i class="material-icons">person_remove</i></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              <form class="user">
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-user" id="NIP" placeholder="NIP">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-user" id="nama_guru" placeholder="Nama">
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                    <input type="text" class="form-control form-control-user" id="no_hp" placeholder="No Handphone">
+                  </div>
+                  <div class="col-sm-6">
+                    <input type="password" class="form-control form-control-user" id="password" placeholder="Password">
+                  </div>
+                </div>
+                <a href="login.html" class="btn btn-primary btn-user btn-block">
+                  Tambah Data
+                </a>
+              </form>
             </div>
           </div>
         </div>
