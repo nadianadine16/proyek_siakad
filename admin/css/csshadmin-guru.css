@@ -1,0 +1,138 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header{
+  padding: 10px;
+  background: #E0E0E0;
+  color: black;
+  box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+}
+.header b{
+  font-family: "georgia";
+  font-size: 18pt;
+  display: inline-block;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(white, #667DB9);
+  background: -webkit-linear-gradient(white, #667DB9);
+  background: -o-linear-gradient(white, #667DB9);
+  background: -moz-linear-gradient(white, #667DB9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+/*
+.sidenav .dropdown1:hover {
+  color: black;
+}*/
+.sidenav .dropdown1 {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .dropdown1:hover {
+  color: black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  font-size: 10px;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown1-content a {
+  font-size: 14px;
+}
+
+.dropdown1:hover .dropdown1-content {
+  display: block;
+}
+.container{
+  margin-left: 150px;
+  background: #E0E0E0;
+}
+
+input{
+  height: 35px;
+  position: relative;
+  left: 910px;
+}
+
+thead{
+  font-weight: bold;
+  font-variant-caps: petite-caps;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.srchbtn{
+  height: 41px;
+  background: #3693D7;
+  position: absolute;
+  right: 10px;
+}
