@@ -1,0 +1,162 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("asset/Frame.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.title{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+.title h1{
+	color: white;
+	font-size: 35px;
+}
+.logohome img{
+	margin-top: 2%;
+	margin-left : 3%;
+	width: 6%;
+	height: 6%;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 5%;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li a.active {
+	background-color: white;
+	color: black;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.containlogin{
+	margin-left: 7%;
+	margin-top: 7%;
+	width: 30%;
+	height: 50%;
+	background: linear-gradient(white, #667DB9);
+	background: -webkit-linear-gradient(white, #667DB9);
+	background: -o-linear-gradient(white, #667DB9);
+	background: -moz-linear-gradient(white, #667DB9);
+	border-radius: 8%;
+}
+
+.containlogin .inputa {
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 5%;
+    height: 40px;
+    border: 0px;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: white;
+  }
+  .containlogin .inputu {
+    width: 90%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 5%;
+    height: 40px;
+    border: 0px;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: white;
+  }
+  .containlogin .bsatu {
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 15%;
+    height: 30px;
+    border: 0px;
+    color: white;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: #4F8590;
+  }
+  .containlogin .bdua {
+    width: 70%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 15%;
+    height: 30px;
+    border: 0px;
+    color: white;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: #165866;
+  }
+  .containlogin .btiga {
+    width: 70%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 15%;
+    color: white;    
+    height: 30px;
+    border: 0px;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: #118DA8;
+  }
+   .containlogin .bsatu a {    
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+  }
+  .containlogin .bdua a {    
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+  }
+  .containlogin .btiga a {    
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+  }
+/*
+.containlogin hr {
+    width: 80%;
+    height: 1px;
+    margin-left: 30px;
+    border: none;
+    background: #6a82fb;
+  }*/

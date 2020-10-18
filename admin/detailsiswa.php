@@ -10,7 +10,7 @@
   <meta name="author" content="">
   <script type="text/javascript" src="js/demo//Chart.js"></script>
 
-  <title>Dashboard Admin</title>
+  <title>Detail Siswa</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -299,145 +299,48 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Dashboard Admin</h1>
+            <h5 class="h5 mb-0 text-gray-800">Dashboard > Siswa > Detail Data Siswa</h5>
           </div>
 
           <!-- Content Row -->
           <div class="row">
+            <div class="container-fluid">
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Data Siswa</h6>
+        </div>
+        <div class="card-body">
+            <form class="user">
+                <div class="form-group">
+                   <label>Nomer Induk Siswa</label>
+                  <input type="text" class="form-control form-control-user" id="nis" placeholder="1023819273" readonly="true">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-user" id="nama" placeholder="Alya Fildza Lusi Nadia Sherin" readonly="true">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-user" id="tahunmasuk" placeholder="2018" readonly="true">
+                </div>
+                <a href= "lihatsiswa.php" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
+                      <i class="fas fa-check"></i>
+                    </span>
+                    <span class="text">OK</span></a>
+              </form>
+        </div>
+    </div>
+</div>      
 
             <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Jumlah Siswa 2018</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">300</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Jumlah Siswa 2019</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">300</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-info shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Jumlah Siswa 2020</div>
-                      <div class="row no-gutters align-items-center">
-                        <div class="col-auto">
-                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">300</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <!-- Pending Requests Card Example -->
           </div>
 
           <!-- Content Row -->
           <div class="row">
-              <div style="width: 800px;height: 400px">
-                <canvas id="myChart"></canvas>
-              </div>
           </div>
 
-          <h3 style="text-align: center; color: black; margin-top: 20px;margin-bottom: 20px;">Keterangan Tabel</h3>
           <div class="row" style="margin-left: 150px;">
-            <table border="1" width="800" class="table1" style="color: black; text-align: center;">
-               <thead>
-                <tr>
-                 <td bgcolor="#5F9EA0">No</td>
-                 <td bgcolor="#5F9EA0">Kode</td>
-                 <td bgcolor="#5F9EA0">Keterangan</td>
-                </tr>
-               </thead>
-               <tbody>
-                <tr>
-                 <td>1</td>
-                 <td>b.indo</td>
-                 <td>Bahasa Indonesia</td>
-                </tr>
-                <tr>
-                 <td>2</td>
-                 <td>b.ing</td>
-                 <td>Bahasa Inggris</td>
-                </tr>
-                <tr>
-                 <td>3</td>
-                 <td>b.jawa</td>
-                 <td>Bahasa Jawa</td>
-                </tr>
-                <tr>
-                 <td>4</td>
-                 <td>mat</td>
-                 <td>Matematika</td>
-                </tr>
-                <tr>
-                 <td>5</td>
-                 <td>agama</td>
-                 <td>Agama</td>
-                </tr>
-                <tr>
-                 <td>6</td>
-                 <td>penjas</td>
-                 <td>Pendidikan Jasmani</td>
-                </tr>
-                <tr>
-                 <td>7</td>
-                 <td>IPA</td>
-                 <td>Ilmu Pengetahuan Alam</td>
-                </tr>
-                <tr>
-                 <td>8</td>
-                 <td>IPS</td>
-                 <td>Ilmu Pengetahuan Sosial</td>
-                </tr>
-                <tr>
-                 <td>9</td>
-                 <td>Pra</td>
-                 <td>Prakarya</td>
-                </tr>
-                <tr>
-                 <td>10</td>
-                 <td>SB</td>
-                 <td>Seni Budaya</td>
-                </tr>
-                <tr>
-                 <td>11</td>
-                 <td>PKN</td>
-                 <td>Pendidikan Kewarganegaraan</td>
-                </tr>
-               </tbody>
-              </table>
 
             <!-- Area Chart -->
             </div>
@@ -478,68 +381,19 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Anda yakin ingin logout?</h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-body">Klik "logout" jika anda ingin keluar.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
+          <a class="btn btn-primary" href="../login.php">Logout</a>
         </div>
       </div>
     </div>
   </div>
-  <script>
-    var ctx = document.getElementById("myChart").getContext('2d');
-    var myChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ["B.indo", "B.ing", "B.jawa", "PKN", "Mat", "Agama", "Penjas", "IPA", "IPS", "Pra", "SB"],
-        datasets: [{
-          label: '# Jumlah Guru',
-          data: [5, 5, 4, 2, 4, 3, 3, 5, 6, 3, 2],
-          backgroundColor: [
-          'rgba(255, 99, 132, 0.2)',
-          'rgba(54, 162, 235, 0.2)',
-          'rgba(255, 206, 86, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)',
-          'rgba(255, 159, 64, 0.2)',
-          'rgba(255, 99, 132, 0.2)',
-          'rgba(54, 162, 235, 0.2)',
-          'rgba(255, 206, 86, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(255, 159, 64, 0.2)'
-          ],
-          borderColor: [
-          'rgba(255,99,132,1)',
-          'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)',
-          'rgba(255, 159, 64, 1)',
-          'rgba(255,99,132,1)',
-          'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(255, 159, 64, 1)'
-          ],
-          borderWidth: 1
-        }]
-      },
-      options: {
-        scales: {
-          yAxes: [{
-            ticks: {
-              beginAtZero:true
-            }
-          }]
-        }
-      }
-    });
-  </script>
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>

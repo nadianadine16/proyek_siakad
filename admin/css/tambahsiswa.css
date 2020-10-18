@@ -1,0 +1,83 @@
+.containerr p{
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 310px;
+}
+.kotak{
+  width: 900px;
+  height: 400px;
+  border: 5px solid black;
+}
+.noinduk h4{
+  margin-left: 20px;
+}
+.inp1{
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    height: 40px;
+    border: 0px;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: #CFDFF1;
+}
+.nama h4{
+  margin-left: 20px;
+}
+.inp2{
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    height: 40px;
+    border: 0px;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: #CFDFF1;
+}
+.tahun h4{
+  margin-left: 20px;
+}
+.inp3{
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    height: 40px;
+    border: 0px;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: #CFDFF1;
+}
+.tombol{
+  margin-left: 100px;
+}
+.tombol1{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 15%;
+    height: 30px;
+    border: 0px;
+    color: white;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background-color: #4F8590;
+    width: 100px;
+}
+.tombol2{
+    margin-top: 25px;
+    width: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 15%;
+    height: 30px;
+    border: 0px;
+    color: white;
+    /*border-bottom: 1px solid #6a82fb;*/
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: #D15033;
+}
