@@ -58,33 +58,39 @@
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Siswa</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Data Siswa:</h6>
-            <a class="collapse-item" href="buttons.html">Tambah Siswa</a>
-            <a class="collapse-item" href="cards.html">Lihat Siswa</a>
-          </div>
-        </div>
-      </li>
-      <hr class="sidebar-divider">
-      <div class="sidebar-heading">
-        Guru
-      </div>
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
           <i class="fas fa-fw fa-wrench"></i>
           <span>Guru</span>
         </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Data Guru:</h6>
-            <a class="collapse-item" href="utilities-color.html">Tambah Guru</a>
-            <a class="collapse-item" href="utilities-border.html">Lihat Guru</a>
+            <a class="collapse-item" href="admin_tambahguru.php">Tambah Guru</a>
+            <a class="collapse-item" href="admin_dashguru.php">Lihat Guru</a>
+          </div>
+        </div>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Kelas
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>Kelas</span>
+        </a>
+        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Data Kelas:</h6>
+            <a class="collapse-item" href="tambahkelas.php">Tambah Kelas</a>
+            <a class="collapse-item" href="lihatkelas.php">Lihat Kelas</a>
           </div>
         </div>
       </li>

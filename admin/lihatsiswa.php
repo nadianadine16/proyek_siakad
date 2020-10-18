@@ -83,8 +83,8 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Data Guru:</h6>
-            <a class="collapse-item" href="utilities-color.html">Tambah Guru</a>
-            <a class="collapse-item" href="utilities-border.html">Lihat Guru</a>
+            <a class="collapse-item" href="admin_tambahguru.php">Tambah Guru</a>
+            <a class="collapse-item" href="admin_dashguru.php">Lihat Guru</a>
           </div>
         </div>
       </li>
