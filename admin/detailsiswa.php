@@ -105,7 +105,7 @@
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Data Kelas:</h6>
             <a class="collapse-item" href="login.html">Tambah Kelas</a>
-            <a class="collapse-item" href="register.html">Lihat Kelas</a>
+            <a class="collapse-item" href="lihatkelas.php">Lihat Kelas</a>
           </div>
         </div>
       </li>

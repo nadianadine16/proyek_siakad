@@ -104,7 +104,7 @@
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Data Kelas:</h6>
-            <a class="collapse-item" href="login.html">Tambah Kelas</a>
+            <a class="collapse-item" href="tambahkelas.php">Tambah Kelas</a>
             <a class="collapse-item" href="lihatkelas.php">Lihat Kelas</a>
           </div>
         </div>
@@ -314,19 +314,31 @@
            <form class="user">
                 <div class="form-group">
                    <label>Nomer Induk Siswa</label>
-                  <input type="text" class="form-control form-control-user" id="nis" placeholder="Contoh : 1023819273">
+                   <div class="dropdown mb-4">
+                    <select class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown-menu animated--fade-in" aria-labelledby="dropdownMenuButton">
+                      <option value="1831710102" class="dropdown-item" href="#">1831710102</option>
+                      <option value="1831710103" class="dropdown-item" href="#">1831710103</option>
+                      <option value="1831710104" class="dropdown-item" href="#">1831710104</a>
+                    </div>
+                    </select>
+                  </div>
+                    <!-- <input type="text" class="form-control form-control-user" id="nis" placeholder="Contoh : 1023819273"> -->
                 </div>
                 <div class="form-group">
+                  <input type="text" class="form-control form-control-user" id="nama" placeholder="Alya Fildza Lusi Nadia Sherin" readonly="true">
+                </div>
+<!--                 <div class="form-group">
                   <input type="text" class="form-control form-control-user" id="nama" placeholder="Contoh : Alya Fildza Lusi Nadia Sherin">
                 </div>
                 <div class="form-group">
                   <input type="text" class="form-control form-control-user" id="tahunmasuk" placeholder="Contoh : 2018">
-                </div>
-                  <a href="tambahsiswa.php" class="btn btn-danger btn-icon-split"><span class="icon text-white-50">
+                </div> -->
+<!--                   <a href="tambahsiswa.php" class="btn btn-danger btn-icon-split"><span class="icon text-white-50">
                       <i class="fas fa-reply-all"></i>
                     </span>
-                    <span class="text"> Reset</span></a>
-                    <a href="lihatsiswa.php" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
+                    <span class="text"> Reset</span></a> -->
+                    <a href="detailkelas.php" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
                       <i class="fas fa-check"></i>
                     </span>
                     <span class="text"> Submit</span></a>

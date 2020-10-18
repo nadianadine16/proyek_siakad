@@ -10,7 +10,7 @@
   <meta name="author" content="">
   <script type="text/javascript" src="js/demo//Chart.js"></script>
 
-  <title>Tambah Siswa</title>
+  <title>Detail Kelas</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -104,7 +104,7 @@
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Data Kelas:</h6>
-            <a class="collapse-item" href="login.html">Tambah Kelas</a>
+            <a class="collapse-item" href="tambahkelas.php">Tambah Kelas</a>
             <a class="collapse-item" href="lihatkelas.php">Lihat Kelas</a>
           </div>
         </div>
@@ -299,7 +299,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h5 class="h5 mb-0 text-gray-800">Dashboard > Siswa > Tambah Data Siswa</h5>
+            <h5 class="h5 mb-0 text-gray-800">Dashboard > Kelas > Detail Data Kelas</h5>
           </div>
 
           <!-- Content Row -->
@@ -308,51 +308,69 @@
 
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Data Baru Siswa</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Kelas 7A (Bagas)</h6>
         </div>
         <div class="card-body">
-           <form class="user">
-                <div class="form-group">
-                   <label>Nomer Induk Siswa</label>
-                  <input type="text" class="form-control form-control-user" id="nis" placeholder="Contoh : 1023819273">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control form-control-user" id="nama" placeholder="Contoh : Alya Fildza Lusi Nadia Sherin">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control form-control-user" id="tahunmasuk" placeholder="Contoh : 2018">
-                </div>
-                  <a href="tambahsiswa.php" class="btn btn-danger btn-icon-split"><span class="icon text-white-50">
-                      <i class="fas fa-reply-all"></i>
+          <a href= "tambahsiswakelas.php" class="btn btn-primary btn-icon-split float-left"><span class="icon text-white-50">
+                      <i class="fas fa-plus"></i>
                     </span>
-                    <span class="text"> Reset</span></a>
-                    <a href="lihatsiswa.php" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
-                      <i class="fas fa-check"></i>
-                    </span>
-                    <span class="text"> Submit</span></a>
-              </form>
-                <!-- <form >
-                    <div class="form-group">
-                        <label>Nomer Induk Siswa</label>
-                            <input type="text" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label>Nama Siswa </label>
-                        <input type="text" class="form-control">
-                    </div> 
-                    <div class="form-group">
-                        <label>Tahun Masuk Siswa</label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <button type="reset" name="reset" class="btn btn-danger btn-icon-split"><span class="icon text-white-50">
-                      <i class="fas fa-reply-all"></i>
-                    </span>
-                    <span class="text"> Reset</span></button>
-                    <button type="submit" name="submit" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
-                      <i class="fas fa-check"></i>
-                    </span>
-                    <span class="text"> Submit</span></button>
-                </form> -->
+                    <span class="text">Tambah Siswa Kelas</span></a><br><br>
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" style="text-align: center;">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>NIS</th>
+                      <th>Nama Siswa</th>
+                      <th>Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>1831710056</td>
+                      <td>Alya M</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>1831710056</td>
+                      <td>Fildzah F</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    <tr>
+                      <td>3</td>
+                      <td>1831710056</td>
+                      <td>Lusi T</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>1831710056</td>
+                      <td>Nadia N</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>1831710056</td>
+                      <td>Sherin L</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
         </div>
     </div>
 </div>      

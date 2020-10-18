@@ -10,7 +10,7 @@
   <meta name="author" content="">
   <script type="text/javascript" src="js/demo//Chart.js"></script>
 
-  <title>Tambah Siswa</title>
+  <title>Edit Kelas</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -104,7 +104,7 @@
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Data Kelas:</h6>
-            <a class="collapse-item" href="login.html">Tambah Kelas</a>
+            <a class="collapse-item" href="tambahkelas.php">Tambah Kelas</a>
             <a class="collapse-item" href="lihatkelas.php">Lihat Kelas</a>
           </div>
         </div>
@@ -299,7 +299,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h5 class="h5 mb-0 text-gray-800">Dashboard > Siswa > Tambah Data Siswa</h5>
+            <h5 class="h5 mb-0 text-gray-800">Dashboard > Kelas > Edit Kelas</h5>
           </div>
 
           <!-- Content Row -->
@@ -308,50 +308,56 @@
 
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Data Baru Siswa</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Edit Data Kelas</h6>
         </div>
         <div class="card-body">
-           <form class="user">
+            <form class="user">
                 <div class="form-group">
-                   <label>Nomer Induk Siswa</label>
-                  <input type="text" class="form-control form-control-user" id="nis" placeholder="Contoh : 1023819273">
+                   <label>Nama Kelas</label>
+                  <input type="text" class="form-control form-control-user" id="nama" placeholder="9F" readonly="true">
+                </div>
+                <div class="dropdown mb-4">
+                  <label>Nomor Induk Pegawai</label><br>
+                    <select class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown-menu animated--fade-in" aria-labelledby="dropdownMenuButton">
+                      <option value="121021287" class="dropdown-item" href="#">121021287</option>
+                      <option value="121021288" class="dropdown-item" href="#">121021288</option>
+                      <option value="121021289" class="dropdown-item" href="#">121021289</a>
+                    </div>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>Nama Guru</label>
+                  <input type="text" class="form-control form-control-user" id="nama" placeholder="yessy" readonly="true">
+                </div>
+                <!-- <div class="form-group">
+                  <input type="text" class="form-control form-control-user" id="nama" placeholder="Alya Fildza Lusi Nadia Sherin">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-user" id="nama" placeholder="Contoh : Alya Fildza Lusi Nadia Sherin">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control form-control-user" id="tahunmasuk" placeholder="Contoh : 2018">
-                </div>
-                  <a href="tambahsiswa.php" class="btn btn-danger btn-icon-split"><span class="icon text-white-50">
-                      <i class="fas fa-reply-all"></i>
-                    </span>
-                    <span class="text"> Reset</span></a>
-                    <a href="lihatsiswa.php" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
+                  <input type="text" class="form-control form-control-user" id="tahunmasuk" placeholder="2018">
+                </div> -->
+                <a href= "lihatkelas.php" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
                       <i class="fas fa-check"></i>
                     </span>
-                    <span class="text"> Submit</span></a>
+                    <span class="text">OK</span></a>
               </form>
                 <!-- <form >
                     <div class="form-group">
                         <label>Nomer Induk Siswa</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" placeholder="1831710056">
                     </div>
                     <div class="form-group">
                         <label>Nama Siswa </label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" placeholder="Alya Mila">
                     </div> 
                     <div class="form-group">
                         <label>Tahun Masuk Siswa</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" placeholder="2018">
                     </div>
-                    <button type="reset" name="reset" class="btn btn-danger btn-icon-split"><span class="icon text-white-50">
-                      <i class="fas fa-reply-all"></i>
-                    </span>
-                    <span class="text"> Reset</span></button>
-                    <button type="submit" name="submit" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
+                    <a href= "lihatsiswa.php" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
                       <i class="fas fa-check"></i>
                     </span>
-                    <span class="text"> Submit</span></button>
+                    <span class="text">OK</span></a>
                 </form> -->
         </div>
     </div>
@@ -419,6 +425,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <!-- Bootstrap core JavaScript-->

@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Daftar Siswa</title>
+  <title>Daftar Kelas</title>
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -66,7 +66,7 @@
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Data Siswa:</h6>
             <a class="collapse-item" href="tambahsiswa.php">Tambah Siswa</a>
-            <a class="collapse-item" href="lihatsiswa.php">Lihat Siswa</a>
+            <a class="collapse-item" href="lihatkelas.php">Lihat Siswa</a>
           </div>
         </div>
       </li>
@@ -107,7 +107,7 @@
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Data Kelas:</h6>
             <a class="collapse-item" href="login.html">Tambah Kelas</a>
-            <a class="collapse-item" href="lihatkelas.php">Lihat Kelas</a>
+            <a class="collapse-item" href="register.html">Lihat Kelas</a>
           </div>
         </div>
       </li>
@@ -217,13 +217,12 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h5 class="h5 mb-0 text-gray-800">Dashboard > Siswa > Lihat Data Siswa</h5><br>
-          <p class="mb-4">Daftar Siswa dibawah ini merupakan angkatan dari 2018, 2019, 2020.</p>
+          <h5 class="h5 mb-0 text-gray-800">Dashboard > Kelas > Lihat Data Kelas</h5><br>
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Daftar Siswa</h6>
+              <h6 class="m-0 font-weight-bold text-primary">Daftar Kelas</h6>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -231,9 +230,7 @@
                   <thead>
                     <tr>
                       <th>No</th>
-                      <th>Nama Siswa</th>
-                      <th>Tahun Masuk</th>
-                      <th>Absensi</th>
+                      <th>Nama Kelas</th>
                       <th>Detail</th>
                       <th>Edit</th>
                       <th>Delete</th>
@@ -242,91 +239,337 @@
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Alya M</td>
-                      <td>2018</td>
-                      <td>20</td>
+                      <td>7A</td>
                       <td>
-                        <a href="detailsiswa.php" class="btn btn-success">
+                        <a href="detailkelas.php" class="btn btn-success">
                         <i class="fa fa-eye" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="editsiswa.php" class="btn btn-warning">
+                        <a href="editkelas.php" class="btn btn-warning">
                         <i class="fas fa-edit" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="lihatsiswa.php" class="btn btn-danger">
+                        <a href="lihatkelas.php" class="btn btn-danger">
                         <i class="fa fa-trash" aria-hidden="true"></i></a>
                       </td>
                     </tr>
                     <tr>
                       <td>2</td>
-                      <td>Fildzah F</td>
-                      <td>2018</td>
-                      <td>21</td>
+                      <td>7B</td>
                       <td>
-                        <a href="detailsiswa.php" class="btn btn-success">
+                        <a href="detailkelas.php" class="btn btn-success">
                         <i class="fa fa-eye" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="editsiswa.php" class="btn btn-warning">
+                        <a href="editkelas.php" class="btn btn-warning">
                         <i class="fas fa-edit" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="lihatsiswa.php" class="btn btn-danger">
+                        <a href="lihatkelas.php" class="btn btn-danger">
                         <i class="fa fa-trash" aria-hidden="true"></i></a>
                       </td>
                     </tr>
                     <tr>
                       <td>3</td>
-                      <td>Lusi T</td>
-                      <td>2018</td>
-                      <td>22</td>
+                      <td>7C</td>
                       <td>
-                        <a href="detailsiswa.php" class="btn btn-success">
+                        <a href="detailkelas.php" class="btn btn-success">
                         <i class="fa fa-eye" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="editsiswa.php" class="btn btn-warning">
+                        <a href="editkelas.php" class="btn btn-warning">
                         <i class="fas fa-edit" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="lihatsiswa.php" class="btn btn-danger">
+                        <a href="lihatkelas.php" class="btn btn-danger">
                         <i class="fa fa-trash" aria-hidden="true"></i></a>
                       </td>
                     </tr>
                     <tr>
                       <td>4</td>
-                      <td>Nadia N</td>
-                      <td>2018</td>
-                      <td>23</td>
+                      <td>7D</td>
                       <td>
-                        <a href="detailsiswa.php" class="btn btn-success">
+                        <a href="detailkelas.php" class="btn btn-success">
                         <i class="fa fa-eye" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="editsiswa.php" class="btn btn-warning">
+                        <a href="editkelas.php" class="btn btn-warning">
                         <i class="fas fa-edit" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="lihatsiswa.php" class="btn btn-danger">
+                        <a href="lihatkelas.php" class="btn btn-danger">
                         <i class="fa fa-trash" aria-hidden="true"></i></a>
                       </td>
                     </tr>
                     <tr>
                       <td>5</td>
-                      <td>Sherin L</td>
-                      <td>2018</td>
-                      <td>24</td>
+                      <td>7E</td>
                       <td>
-                        <a href="detailsiswa.php" class="btn btn-success">
+                        <a href="detailkelas.php" class="btn btn-success">
                         <i class="fa fa-eye" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="editsiswa.php" class="btn btn-warning">
+                        <a href="editkelas.php" class="btn btn-warning">
                         <i class="fas fa-edit" aria-hidden="true"></i></a>
                       </td>
                       <td>
-                        <a href="lihatsiswa.php" class="btn btn-danger">
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>7F</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>7G</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>8A</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>8B</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>8C</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>11</td>
+                      <td>8D</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>12</td>
+                      <td>8E</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>13</td>
+                      <td>8F</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>14</td>
+                      <td>8G</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>9A</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>16</td>
+                      <td>9B</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>17</td>
+                      <td>9C</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>18</td>
+                      <td>9D</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19</td>
+                      <td>9E</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>9F</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>21</td>
+                      <td>9G</td>
+                      <td>
+                        <a href="detailkelas.php" class="btn btn-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="editkelas.php" class="btn btn-warning">
+                        <i class="fas fa-edit" aria-hidden="true"></i></a>
+                      </td>
+                      <td>
+                        <a href="lihatkelas.php" class="btn btn-danger">
                         <i class="fa fa-trash" aria-hidden="true"></i></a>
                       </td>
                     </tr>
