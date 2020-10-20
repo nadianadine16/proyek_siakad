@@ -59,7 +59,6 @@
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
           <span>Siswa</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -77,7 +76,6 @@
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
           <span>Guru</span>
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
@@ -100,7 +98,7 @@
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
+          
           <span>Kelas</span>
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
@@ -339,22 +337,7 @@
                       <th>Edit</th>
                       <th>Hapus</th>
                     </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                      <th rowspan="2">No</th>
-                      <th rowspan="2">NIP</th>
-                      <th rowspan="2">Nama Guru</th>
-                      <th rowspan="2">Nomor Hp</th>
-                      <th rowspan="2">Password</th>
-                      <th>Detail</th>
-                      <th>Edit</th>
-                      <th>Hapus</th>
-                    </tr>
-                    <tr>
-                      <th colspan="3">Action</th>
-                    </tr>
-                  </tfoot>
+                  </thead>                  
                   <tbody>
                     <tr>
                       <td>1</td>
@@ -362,9 +345,9 @@
                       <td>Kusmanto</td>
                       <td>089234576</td>
                       <td>kusmanto123</td>
-                      <td><a href="" class="btn btn-success"><i class="fas fa-eye"></i></a></td>
-                      <td><a href="" class="btn btn-warning"><i class="fas fa-edit" aria-hidden="true"></i></a></td>
-                      <td><a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
+                      <td><a href="admin_detailguru.php" class="btn btn-success"><i class="fas fa-eye"></i></a></td>
+                      <td><a href="admin_editguru.php" class="btn btn-warning"><i class="fas fa-edit" aria-hidden="true"></i></a></td>
+                      <td><a href="admin_dashguru.php" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
                     </tr>
                     <tr>
                       <td>2</td>
@@ -372,9 +355,9 @@
                       <td>Prasetyo Gunawan</td>
                       <td>08129387498</td>
                       <td>psgunawan</td>
-                      <td><a href="" class="btn btn-success"><i class="fas fa-eye"></i></a></td>
-                      <td><a href="" class="btn btn-warning"><i class="fas fa-edit" aria-hidden="true"></i></a></td>
-                      <td><a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
+                      <td><a href="admin_detailguru.php" class="btn btn-success"><i class="fas fa-eye"></i></a></td>
+                      <td><a href="admin_editguru.php" class="btn btn-warning"><i class="fas fa-edit" aria-hidden="true"></i></a></td>
+                      <td><a href="admin_dashguru.php" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
                     </tr>
                     <tr>
                       <td>3</td>
@@ -382,9 +365,9 @@
                       <td>Rossa Simanjuntak Putri</td>
                       <td>08223950398</td>
                       <td>rossa1234</td>
-                      <td><a href="" class="btn btn-success"><i class="fas fa-eye"></i></a></td>
-                      <td><a href="" class="btn btn-warning"><i class="fas fa-edit" aria-hidden="true"></i></a></td>
-                      <td><a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
+                      <td><a href="admin_detailguru.php" class="btn btn-success"><i class="fas fa-eye"></i></a></td>
+                      <td><a href="admin_editguru.php" class="btn btn-warning"><i class="fas fa-edit" aria-hidden="true"></i></a></td>
+                      <td><a href="admin_dashguru.php" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
                     </tr>
                     <tr>
                       <td>4</td>
@@ -392,9 +375,9 @@
                       <td>Jessica Jane</td>
                       <td>087736455</td>
                       <td>jejane12</td>
-                      <td><a href="" class="btn btn-success"><i class="fas fa-eye"></i></a></td>
-                      <td><a href="" class="btn btn-warning"><i class="fas fa-edit" aria-hidden="true"></i></a></td>
-                      <td><a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
+                      <td><a href="admin_detailguru.php" class="btn btn-success"><i class="fas fa-eye"></i></a></td>
+                      <td><a href="admin_editguru.php" class="btn btn-warning"><i class="fas fa-edit" aria-hidden="true"></i></a></td>
+                      <td><a href="admin_dashguru.php" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
                     </tr>
                   </tbody>
                 </table>
@@ -411,7 +394,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2020</span>
+            <span>SMPN 2 Kebomas</span>
           </div>
         </div>
       </footer>

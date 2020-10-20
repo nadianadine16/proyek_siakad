@@ -56,8 +56,7 @@
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">          
           <span>Siswa</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -74,8 +73,7 @@
       </div>
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">          
           <span>Guru</span>
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
@@ -98,7 +96,6 @@
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
           <span>Kelas</span>
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
@@ -308,7 +305,7 @@
 
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Data Siswa</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Detail Siswa</h6>
         </div>
         <div class="card-body">
             <form class="user">
@@ -317,9 +314,11 @@
                   <input type="text" class="form-control form-control-user" id="nis" placeholder="1023819273" readonly="true">
                 </div>
                 <div class="form-group">
+                  <label>Nama Siswa</label>
                   <input type="text" class="form-control form-control-user" id="nama" placeholder="Alya Fildza Lusi Nadia Sherin" readonly="true">
                 </div>
                 <div class="form-group">
+                  <label>Tahun Masuk Siswa</label>
                   <input type="text" class="form-control form-control-user" id="tahunmasuk" placeholder="2018" readonly="true">
                 </div>
                 <a href= "lihatsiswa.php" class="btn btn-success btn-icon-split float-right"><span class="icon text-white-50">
