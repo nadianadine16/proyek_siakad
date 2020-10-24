@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="csslogin.css">
-		<title>Login</title>		
-	</head>
-	<body>
-		<header>
-			<div class="main">
-				<ul>
-					<li><a href="home.php">Home</a></li>
-					<li><a href="#" class="active">Login</a></li>
-				</ul>
-			</div>
-			<div class="logohome">
-				<img src="asset/logosmp.jpg">
-			</div>
-			<div class="title">
-				<h1>HOME</h1>
-			</div>
-			<div class="containlogin">
-				<input type="text" class="inputa" name="" value="" placeholder="Masukan Username"> 
-        		<input type="password" class="inputu" name="" value="" placeholder="Masukan password"> 
-        		<button class="bsatu" ><a href="admin/dashboardadmin.php">Login sebagai Admin</a></button>
-        		<button class="bdua" href="">Login sebagai Guru</button>
-        		<button class="btiga" href="">Login sebagai Mahasiswa</button>
-			</div>
-		</header>
-	</body>
+<head>
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src="img/avatar.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="btn" value="Login Admin">
+				<input type="submit" class="btn" value="Login Guru">
+				<input type="submit" class="btn" value="Login Siswa">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
