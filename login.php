@@ -11,6 +11,7 @@
 	<img class="wave" src="img/wave.png">
 	<div class="container">
 		<div class="img">
+			<a href="index.php"><input type="button" class="btn" value="Back Home"></a>
 			<img src="img/bg.svg">
 		</div>
 		<div class="login-content">
