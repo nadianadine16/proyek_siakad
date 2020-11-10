@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Basic Page Info -->
+	<meta charset="utf-8">
+	<title>Dashboard Siswa</title>
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="vendors/styles/core.css">
+	<link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="src/plugins/jvectormap/jquery-jvectormap-2.0.3.css">
+	<link rel="stylesheet" type="text/css" href="src/styles/style.css">
+
+</head>
+<body>
+
+	<div class="header">
+		<div class="header-left">
+			<div class="menu-icon dw dw-menu"></div>
+		</div>
+		<div class="header-right">
+			<div class="user-notification">
+				<div class="dropdown">
+					<a class="dropdown-toggle no-arrow" href="#" role="button" data-toggle="dropdown">
+						<i class="icon-copy dw dw-notification"></i>
+						<span class="badge notification-active"></span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<div class="notification-list mx-h-350 customscroll">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="src/images/berhasil.png" alt="">
+										<h3>Berhasil (IPA)</h3>
+										<p>Tugas Minggu 1 Mata Pelajaran IPA Berhasil Dikumpulkan</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="user-info-dropdown">
+				<div class="dropdown">
+					<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+						<span class="user-icon">
+							<img src="src/images/profil.png" alt="">
+						</span>
+						<span class="user-name">Hi, Siswa</span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+						<a class="dropdown-item" href="#"><i class="dw dw-settings2"></i> Setting</a>
+						<a class="dropdown-item" href="#"><i class="dw dw-logout"></i> Log Out</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="left-side-bar">
+		<div class="brand-logo">
+			<a href="#">
+				<img src="src/images/Logo_smp.png" alt="" class="light-logo">
+			</a>
+			<div class="close-sidebar" data-toggle="left-sidebar-close">
+				<i class="ion-close-round"></i>
+			</div>
+		</div>
+		<div class="menu-block customscroll">
+			<div class="sidebar-menu">
+				<ul id="accordion-menu">
+					<li class="dropdown">
+						<a href="index.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-house-1"></span><span class="mtext">Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="absen.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-edit-2"></span><span class="mtext">Absensi</span>
+						</a>
+					</li>
+					<li class="dropdown">
+						<a href="mapel.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-copy"></span><span class="mtext">Mata Pelajaran</span>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="mobile-menu-overlay"></div>
+
+	<div class="main-container">
+		<div class="pd-ltr-20 xs-pd-20-10">
+			<div class="min-height-200px">
+				<div class="page-header">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="title">
+								<h4>Halaman Absensi</h4>
+							</div>
+							<nav aria-label="breadcrumb" role="navigation">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Absensi</li>
+								</ol>
+							</nav>
+                        </div>
+                    </div>
+				</div>
+				<div class="alert alert-primary" role="alert">
+					Jika gagal melakukan absen silahkan menghubungi Admin melalui whatsApp
+				</div>
+                <div class="pd-20 card-box mb-30">
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<tbody>
+								<tr>
+									<th scope="row">1 Oktober 2020</th>
+									<td>
+										<span class="badge badge-success"><i class="icon-copy ion-checkmark-round"></i> BERHASIL</span>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">2 Oktober 2020</th>
+									<td><span class="badge badge-success"><i class="icon-copy ion-checkmark-round"></i> BERHASIL</span></td>
+								</tr>
+								<tr>
+									<th scope="row">3 Oktober 2020</th>
+									<td><span class="badge badge-info"><i class="icon-copy ion-close-round"></i> ALPA</span></td>
+								</tr>
+								<tr>
+									<th scope="row">4 Oktober 2020</th>
+									<td><span class="badge badge-success"><i class="icon-copy ion-checkmark-round"></i> BERHASIL</span></td>
+								</tr>
+								<tr>
+									<th scope="row">5 Oktober 2020</th>
+									<td><span class="badge badge-success"><i class="icon-copy ion-checkmark-round"></i> BERHASIL</span></td>
+								</tr>
+								<tr>
+									<th scope="row">6 Oktober 2020</th>
+									<td><span class="badge badge-success"><i class="icon-copy ion-checkmark-round"></i> BERHASIL</span></td>
+								</tr>
+								<tr>
+									<th scope="row">7 Oktober 2020</th>
+									<td><span class="badge badge-success"><i class="icon-copy ion-checkmark-round"></i> BERHASIL</span></td>
+								</tr>
+								<tr>
+									<th scope="row">8 Oktober 2020</th>
+									<td><span class="badge badge-success"><i class="icon-copy ion-checkmark-round"></i> BERHASIL</span></td>
+								</tr>
+								<tr>
+									<th scope="row">9 Oktober 2020</th>
+									<td><span class="badge badge-success"><i class="icon-copy ion-checkmark-round"></i> BERHASIL</span></td>
+								</tr>
+								<tr>
+									<th scope="row">10 Oktober 2020</th>
+									<td><span class="badge badge-info"><i class="icon-copy ion-close-round"></i> ALPA</span></td>
+								</tr>
+								<tr>
+									<th scope="row">11 Oktober 2020</th>
+									<td><a href="form_absen.html" class="btn btn-danger"><i class="icon-copy fa fa-arrow-right"></i> KERJAKAN</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="collapse collapse-box" id="responsive-table">
+						<div class="code-box">
+							<div class="clearfix">
+								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#responsive-table-code"><i class="fa fa-clipboard"></i> Copy Code</a>
+								<a href="#responsive-table" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
+							</div>
+							<pre><code class="xml copy-pre" id="responsive-table-code"></code></pre>
+						<div class="table-responsive">
+					</div>
+				</div>
+				
+            </div>
+		</div>
+	</div>
+	<!-- js -->
+	<script src="vendors/scripts/core.js"></script>
+	<script src="vendors/scripts/script.min.js"></script>
+	<script src="vendors/scripts/process.js"></script>
+	<script src="vendors/scripts/layout-settings.js"></script>
+	<script src="src/plugins/jQuery-Knob-master/jquery.knob.min.js"></script>
+	<script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
+	<script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
+	<script src="src/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+	<script src="src/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+	<script src="vendors/scripts/dashboard2.js"></script>
+</body>
+</html>
